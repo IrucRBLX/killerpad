@@ -7,7 +7,7 @@ p.Size = Vector3.new(8, 1.2, 8)
 p.Anchored = true
 p.Transparency = 0.5
 p.BottomSurface = ("Smooth")
-p.TopSurface = ("Studs")
+p.TopSurface = ("Smooth")
 local m = Instance.new("SpecialMesh", N) m.MeshType = "Sphere" 
 m.Scale = Vector3.new(3, 20, 3)
 m.Parent = p
